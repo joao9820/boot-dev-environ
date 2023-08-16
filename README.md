@@ -22,11 +22,11 @@ TERMINAL={TERMINAL UTILIZADO} ex. Git Bash
 PROGRAM-TEST-API={PROGRAMA PARA TESTAR ROTAS DA API} - Ainda não ativo no código
 
 - Após isso, certifique-se que já possui as bibliotecas pyautogui e python-dotenv instaladas para executar o projeto
-- Para executar o projeto abra um terminal no mesmo diretório e digite python BootDenEnviron.py ou então utilize o atalho CTRL + F5 
+- Para executar o projeto abra um terminal no mesmo diretório e digite python BootDevEnviron.py ou então utilize o atalho CTRL + F5 
 
 **Obs:**
 
--**O script precisa do VsCode instalado, pois são utilizados atalhos desse programa para abertura de terminal, por exemplo**
+- **O script precisa do VsCode instalado, pois são utilizados atalhos desse programa para abertura de terminal, por exemplo**
 
--**Não é utilizado nenhum tipo de interação com o mouse a partir do pyautogui de forma que seja compatível para a maioria dos ambientes**
+- **Não é utilizado nenhum tipo de interação com o mouse a partir do pyautogui de forma que seja compatível para a maioria dos ambientes**
 
