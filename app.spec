@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(
-    ['BootDevEnviron.py'],
+    ['app.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -28,7 +28,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='BootDevEnviron',
+    name='app',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
