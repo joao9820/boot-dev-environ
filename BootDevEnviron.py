@@ -36,6 +36,9 @@ def start_project(path: str, comand: str):
   # shell
   # print(path)
 
+  # espera abrir o terminal
+  time.sleep(3)
+
   #Não é possível utilizar / no pyautogui
   pyautogui.typewrite('cd ' + path)
   pyautogui.press('enter')
@@ -43,12 +46,12 @@ def start_project(path: str, comand: str):
   pyautogui.press('enter')
 
   # espera abrir o vs code
-  time.sleep(3)
+  time.sleep(5)
 
   pyautogui.hotkey('ctrl', "'")
 
   # espera abrir o terminal
-  time.sleep(3)
+  time.sleep(5)
 
   # iniciar servidor
   pyautogui.write(comand)
